@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="Commit to production"><style>text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;font-size:13px;fill:#0E2338}.t{font-weight:600}.s{fill:#4A6179;font-size:11px}.box{fill:#fff;stroke:#0E2338;stroke-width:2}.acc{fill:#D9480F;stroke:#0E2338;stroke-width:2}.blue{fill:#DCE9F7;stroke:#1F5FA8;stroke-width:2}.ln{fill:none;stroke:#1F5FA8;stroke-width:2.5;stroke-dasharray:6 6;animation:f 1.2s linear infinite}@keyframes f{to{stroke-dashoffset:-12}}@media(prefers-reduced-motion:reduce){.ln{animation:none}}</style>
+<rect x="1" y="1" width="478" height="298" fill="#fff"/>
+<text x="24" y="38" class="t" style="font-size:15px">Commit to production</text>
+<rect x="24" y="100" width="100" height="90" rx="8" class="box"/><text x="74" y="142" text-anchor="middle" class="t">Git push</text><text x="74" y="162" text-anchor="middle" class="s">main branch</text>
+<rect x="190" y="100" width="100" height="90" rx="8" class="acc"/><text x="240" y="142" text-anchor="middle" class="t" style="fill:#fff">Pipeline</text><text x="240" y="162" text-anchor="middle" style="fill:#fff;font-size:11px">build · test · scan</text>
+<rect x="356" y="100" width="100" height="90" rx="8" class="blue"/><text x="406" y="142" text-anchor="middle" class="t">Cluster</text><text x="406" y="162" text-anchor="middle" class="s">rolling deploy</text>
+<path class="ln" d="M124 145H190"/><path class="ln" d="M290 145H356"/>
+<rect x="24" y="230" width="432" height="38" rx="6" fill="#F2F5F8" stroke="#CBD8E5"/><text x="40" y="253" class="s">Image to ECR, automatic rollback on failed checks</text>
+</svg>
