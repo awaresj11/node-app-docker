@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parth Bargale | AWS Cloud &amp; DevOps Engineer</title>
+<meta name="description" content="AWS Cloud and DevOps engineer. Terraform, Kubernetes, CI/CD, and full-stack Java. Based in Maharashtra, open to roles in Pune, Bangalore and Mumbai.">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<a class="skip" href="#work">Skip to projects</a>
+
+<header class="top">
+  <a class="brand" href="#">Parth Bargale</a>
+  <nav aria-label="Primary">
+    <a href="#work">Projects</a>
+    <a href="#stack">Stack</a>
+    <a href="#path">Background</a>
+    <a class="btn small" href="#contact">Get in touch</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <h1>I build the cloud your product runs on.</h1>
+      <p class="lead">AWS cloud and DevOps engineer with a full-stack Java background. I design infrastructure as code, automate delivery pipelines, and keep services observable and cheap to run.</p>
+      <div class="actions">
+        <a class="btn" href="#work">See projects</a>
+        <a class="btn ghost" href="/Parth-Bargale-Resume.pdf">Download resume</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Focus</dt><dd>AWS, Terraform, Kubernetes</dd></div>
+        <div><dt>Also</dt><dd>Spring Boot, React.js</dd></div>
+        <div><dt>Open to</dt><dd>Pune, Bangalore, Mumbai</dd></div>
+      </dl>
+    </div>
+    <figure class="hero-art">
+      <img src="/images/hero-architecture.svg" alt="Architecture diagram: users reach CloudFront and an application load balancer, which routes to a Kubernetes cluster backed by RDS and S3." width="560" height="440">
+    </figure>
+  </section>
+
+  <section id="work" class="block">
+    <h2>Selected projects</h2>
+    <article class="project">
+      <img src="/images/project-terraform.svg" alt="Terraform modules provisioning dev, staging and prod AWS environments" width="480" height="300" loading="lazy">
+      <div>
+        <h3>Multi-environment AWS platform with Terraform</h3>
+        <p>Reusable modules for VPC, EC2 auto scaling, IAM and S3, with remote state in S3 and locking in DynamoDB. One codebase provisions dev, staging and prod with environment-specific variables.</p>
+        <ul class="tags"><li>Terraform</li><li>VPC</li><li>EC2</li><li>IAM</li></ul>
+        <a class="link" href="https://github.com/your-username/terraform-aws-platform">View source</a>
+      </div>
+    </article>
+    <article class="project flip">
+      <img src="/images/project-cicd.svg" alt="CI/CD pipeline from commit to build, test, container image and Kubernetes deploy" width="480" height="300" loading="lazy">
+      <div>
+        <h3>CI/CD pipeline to Kubernetes</h3>
+        <p>Every push builds, tests and scans a Docker image, pushes it to ECR, and rolls it out to the cluster with health checks and automatic rollback on failure.</p>
+        <ul class="tags"><li>Docker</li><li>Kubernetes</li><li>CI/CD</li><li>ECR</li></ul>
+        <a class="link" href="https://github.com/your-username/cicd-kubernetes">View source</a>
+      </div>
+    </article>
+    <article class="project">
+      <img src="/images/project-serverless.svg" alt="S3 upload event triggering a Lambda function that writes results to DynamoDB" width="480" height="300" loading="lazy">
+      <div>
+        <h3>Event-driven processing with S3 and Lambda</h3>
+        <p>Uploads to S3 trigger Lambda functions that validate, transform and index files. Pay-per-use, no servers to patch, with CloudWatch alarms on failures and retries.</p>
+        <ul class="tags"><li>Lambda</li><li>S3</li><li>CloudWatch</li><li>Serverless</li></ul>
+        <a class="link" href="https://github.com/your-username/s3-lambda-pipeline">View source</a>
+      </div>
+    </article>
+    <article class="project flip">
+      <img src="/images/project-fullstack.svg" alt="React front end calling a Spring Boot REST API backed by a database" width="480" height="300" loading="lazy">
+      <div>
+        <h3>Full-stack app: Spring Boot and React.js</h3>
+        <p>REST API with layered Spring Boot services, JWT authentication and a React front end, containerized and deployed to AWS.</p>
+        <ul class="tags"><li>Java</li><li>Spring Boot</li><li>React.js</li><li>JWT</li></ul>
+        <a class="link" href="https://github.com/your-username/fullstack-spring-react">View source</a>
+      </div>
+    </article>
+  </section>
+
+  <section id="stack" class="block">
+    <h2>Stack</h2>
+    <div class="stack">
+      <div><h3>Cloud</h3><p>EC2, S3, Lambda, VPC, IAM, CloudWatch, RDS</p></div>
+      <div><h3>Infrastructure and delivery</h3><p>Terraform, Docker, Kubernetes, CI/CD pipelines</p></div>
+      <div><h3>Application</h3><p>Java, Spring Boot, React.js, REST APIs</p></div>
+    </div>
+  </section>
+
+  <section id="path" class="block">
+    <h2>Background</h2>
+    <ol class="timeline">
+      <li><time>2023 – 2026</time><h3>B.Tech, Computer Science and Engineering</h3><p>D.Y. Patil Agriculture and Technical University, Talsande</p></li>
+      <li><time>2020 – 2023</time><h3>Diploma, Information Technology</h3><p>SIT Polytechnic, Yadrav, Ichalkaranji</p></li>
+    </ol>
+  </section>
+
+  <section id="contact" class="block contact">
+    <div>
+      <h2>Let's talk</h2>
+      <p>Hiring for a cloud or DevOps role in Pune, Bangalore or Mumbai? Send a message and I'll reply within a day.</p>
+      <p class="direct"><a href="mailto:your-email@example.com">your-email@example.com</a><br><a href="https://www.linkedin.com/in/your-username">LinkedIn</a> · <a href="https://github.com/your-username">GitHub</a></p>
+    </div>
+    <form id="contact-form" novalidate>
+      <label>Name<input name="name" autocomplete="name" required minlength="2"></label>
+      <label>Email<input name="email" type="email" autocomplete="email" required></label>
+      <label>Message<textarea name="message" rows="5" required minlength="10"></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+      <p id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer><p>© <span id="year"></span> Parth Bargale</p></footer>
+<script src="/app.js" defer></script>
+</body>
+</html>
